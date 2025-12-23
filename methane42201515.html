@@ -14,13 +14,34 @@
     <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
     <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
 
+    <style>
+        /* 项目基本情况容器 */
+        .project-info-container {
+            display: flex;
+            justify-content: space-between; /* 在容器内横向排列 */
+            align-items: center; /* 垂直居中对齐 */
+            margin-top: 20px; /* 上边距 */
+        }
+
+        /* 项目基本情况文本部分 */
+        .project-info-text {
+            flex: 1; /* 让文本部分占据剩余空间 */
+            max-width: 70%; /* 限制文本的最大宽度 */
+        }
+
+        /* 项目基本情况 Logo 部分 */
+        .project-info-logo img {
+            width: 400px; /* 设置图片的宽度 */
+            height: auto; /* 自适应高度 */
+        }
+    </style>
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
-            <a class="navbar-brand fw-bold" href="#page-top">甲烷研究项目</a>
+            <a class="navbar-brand fw-bold" href="#page-top">甲烷研究项目科普网页</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 菜单
@@ -51,15 +72,24 @@
             <header>
                 <h2>项目基本情况</h2>
             </header>
-            <div class="main-body">
-                <p><strong>项目名称：</strong>甲烷的生物地球化学反馈及其对未来气候变化的影响</p>
-                <p><strong>项目编号：</strong>42201515</p>
-                <p><strong>资助机构：</strong>中国自然科学基金委员会</p>
-                <p><strong>资助类别：</strong>青年科学基金项目（C类）</p>
-                <p><strong>负责人：</strong>付博</p>
-                <p><strong>邮箱：</strong><a href="mailto:pkufubo@pku.edu.cn">pkufubo@pku.edu.cn</a></p>
-                <p><strong>依托单位：</strong>北京大学</p>
-            </div>
+            <div class="project-info-container">
+                <!-- 项目基本情况文本部分 -->
+                <div class="project-info-text">
+                    <p><strong>项目名称：</strong>甲烷的生物地球化学反馈及其对未来气候变化的影响</p>
+                    <p><strong>项目编号：</strong>42201515</p>
+                    <p><strong>资助机构：</strong>中国自然科学基金委员会</p>
+                    <p><strong>资助类别：</strong>青年科学基金项目（C类）</p>
+                    <p><strong>负责人：</strong>付博</p>
+                    <p><strong>邮箱：</strong><a href="mailto:pkufubo@pku.edu.cn">pkufubo@pku.edu.cn</a></p>
+                    <p><strong>依托单位：</strong>北京大学</p>
+                </div>
+                <!-- 项目基本情况 Logo 部分 -->
+                <div class="project-info-logo">
+                    <img src="static/assets/img/logo.png" alt="资助单位 Logo" />
+                </div>
+             </div>
+            <p>为呼应广大纳税人对公共财政支持的研发活动所取得研究成果的关切，推进项目研究成果的宣传与共享，基金委鼓励项目组应根据研究情况提供项目成果科普性介绍或展示网站，力求简明扼要、通俗易懂。项目组特开发此网页，以通俗语言面向非专业人士进行<strong>科普宣传</strong>。</p>
+         
         </div>
     </section>
 
