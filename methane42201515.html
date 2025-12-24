@@ -38,7 +38,17 @@
             width: 500px; /* 设置图片的宽度 */
             height: auto; /* 自适应高度 */
         }
+        .MethaneInfographic2024 {
+            
+            text-align: center; /* 使图片和文字都居中 */
+            margin: 0 auto;     /* 自动设置左右外边距，确保父元素居中 */
+        }
 
+        .MethaneInfographic2024 img {
+            width: 500px; /* 设置图片的宽度 */
+            display: block;     /* 使图片成为块级元素 */
+            margin: 0 auto;     /* 图片水平居中 */
+        }
     </style>
 </head>
 
@@ -67,7 +77,7 @@
                         <a class="nav-link me-lg-3" href="#research">研究内容</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#outreach">成果展示</a>
+                        <a class="nav-link me-lg-3" href="#outreach">项目成果</a>
                     </li>
                 </ul>
             </div>
@@ -136,20 +146,32 @@
     <section id="background" class="mt-5">
         <div class="container px-5">
             <header>
-                <h2>研究背景与目标</h2>
+                <h2>甲烷研究的难点是什么？</h2>
             </header>
             <div class="main-body">
-                <p>本项目旨在深入研究甲烷在气候变化中的作用，特别是其生物地球化学反馈机制如何影响未来的气候变化。甲烷作为一种重要的温室气体，已经被证明对气候系统产生重要影响。虽然甲烷的生命周期相对较短，但其温室效应远强于二氧化碳，对全球变暖的贡献不可忽视。</p>
-                <p>通过本项目的研究，我们将系统探讨甲烷排放及其生物地球化学反馈的过程，揭示甲烷排放如何影响气候变化及其未来的趋势。同时，项目将探索甲烷减排技术，并提出切实可行的减排方案，以帮助应对全球变暖。</p>
+                <p>在甲烷研究中，存在一些重要的挑战和难点：</p>
+                <p><strong>1.甲烷收支的复杂性</strong></p>
+                <p>甲烷的收支过程涉及多个因素，<strong>排放端</strong>既有<strong>人为排放源</strong>，包括：化石燃料、农业、垃圾处理等，也有<strong>自然排放源</strong>，如湿地。
+                    此外，甲烷在大气中的去除过程非常复杂，主要与臭氧等多种大气污染物息息相关。由于这些过程之间的交织与相互作用，准确评估甲烷的源与汇变得非常困难。</strong></p>
+                <p><strong>2.甲烷的模型工具需要发展</strong></p>
+                <p>尽管目前有多种模型用于模拟甲烷的大气浓度，但这些模型仍需进一步发展。
+                    研究者需要在模拟<strong>精确性</strong>和<strong>计算速度</strong>之间找到平衡。精确性对于理解不同源和去除过程的贡献至关重要，而计算速度则是支撑大规模政策情景比较的关键。
+                    为了评估未来几十年的甲烷浓度变化，需要快速且准确的模拟工具。</p>
+
+                 <!-- 甲烷预算图 -->
+            <div class="MethaneInfographic2024">
+                <img src="static/assets/img/MethaneInfographic2024-ch.png" alt="MethaneInfographic2024" />
+                <p>此图修改自全球甲烷预算（<a href="https://www.globalcarbonproject.org/methanebudget/" target="_blank">https://www.globalcarbonproject.org/methanebudget/</a>）</p>
+            </div>
             </div>
         </div>
     </section>
 
     <!-- 研究内容 -->
-    <section id="research" class="mt-5">
+    <section id="research" class="bg-light mt-5">
         <div class="container px-5">
             <header>
-                <h2>研究内容</h2>
+                <h2>部分成果科普性展示</h2>
             </header>
             <div class="main-body">
                 <ul>
@@ -162,10 +184,10 @@
     </section>
 
     <!-- 成果展示 -->
-    <section id="outreach" class="bg-light mt-5">
+    <section id="outreach" class="mt-5">
         <div class="container px-5">
             <header>
-                <h2>项目成果展示</h2>
+                <h2>项目成果</h2>
             </header>
             <div class="main-body">
                 <p>本网站将展示项目的最新研究成果、甲烷的科学原理、相关减排技术等内容，帮助公众更好地了解甲烷在气候变化中的角色和应对措施。我们鼓励大家深入了解甲烷排放问题，关注其对未来气候变化的潜在影响，支持全球气候行动。</p>
